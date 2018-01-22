@@ -118,3 +118,6 @@ matrix:
           - macaca server --verbose &
           - sleep 10
           - python3 tests/macaca-desktop-sample.test.py
+
+notifications:
+   webhooks: https://oapi.dingtalk.com/robot/send?access_token=5cd97a9a9beddb87fbe835e092f806167559ae4fcf013013acea2242dab315a2
